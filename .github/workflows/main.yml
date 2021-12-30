@@ -92,7 +92,7 @@ jobs:
        path: 'steamworks-sdk'
     - name: Run Build
       shell: bash
-      working-directory: ./sm-environment
+      working-directory: ./Pawn
       run: |
         mkdir build
         cd build
