@@ -93,7 +93,7 @@ jobs:
        rep: '1.49'
     - name: Run Build
       shell: bash
-      working-directory: ./Pawn
+      working-directory: ./sm-environment
       run: |
         mkdir build
         cd build
