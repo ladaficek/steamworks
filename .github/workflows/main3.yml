@@ -90,6 +90,7 @@ jobs:
        ssh-key: ${{ secrets.STEAMWORKS_PULL_KEY }}
        repository: 'ladaficek/SteamWorksSDK'
        path: 'steamworks-sdk'
+       rep: '1.49'
     - name: Run Build
       shell: bash
       working-directory: ./Pawn
